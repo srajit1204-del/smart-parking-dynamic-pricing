@@ -85,10 +85,6 @@ Uses Model 2's computed prices as training labels and trains three ML models to 
 
 **Best model: Random Forest (R² = 1.00, RMSE = 0.004)**
 
-**Actual vs Predicted (Random Forest):**
-
-![Actual vs Predicted](visuals/actual_vs_predicted.png)
-
 **SHAP Feature Importance:**
 
 ![SHAP Summary](visuals/shap_summary.png)
