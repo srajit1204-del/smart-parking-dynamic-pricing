@@ -20,12 +20,6 @@ This project implements a **dynamic pricing system for urban parking lots** usin
 
 ---
 
-## Architecture Diagram
-
-<img src="https://github.com/ar-yansingh/images/blob/main/Untitled%20diagram%20_%20Mermaid%20Chart-2025-07-09-161810.png" alt="Architecture Diagram" height="720" />
-
----
-
 ## Project Workflow
 
 ### Data Preprocessing
@@ -65,7 +59,7 @@ Price = BASE_PRICE * (1 + λ * NormDemand)
 
 **Model 2 Output:**
 
-![Model 2 Prediction](https://github.com/ar-yansingh/images/blob/main/Dynamic%20parking%20price%20over%20time(model2).png)
+![Model 2 Prediction](visuals/model2_price.png)
 
 ---
 
@@ -99,7 +93,7 @@ Uses Model 2's computed prices as training labels and trains three ML models to 
 
 **Price Comparison Across Lots (Model 2):**
 
-![Historical Lot Prices](https://github.com/ar-yansingh/images/blob/main/Price%20Comparison%20across%20lots(model2).png)
+![Historical Lot Prices](visuals/price_comparison.png)
 
 ---
 
